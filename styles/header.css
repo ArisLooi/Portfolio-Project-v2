@@ -6,7 +6,7 @@ header {
     flex-direction: column;
     padding: 20px 0;
     gap: 16px;
-    border-bottom: 3px solid #000#0b1d56;
+    border-bottom: 3px solid #0b1d56;
     background-color: #fff;
 }
 
@@ -49,7 +49,7 @@ nav a {
 
 @media only screen and (min-width: 768px) {
     header {
-        font-display: row;
+        display: row;
         align-items: center;
     }
 

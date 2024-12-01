@@ -1,0 +1,118 @@
+#contact {
+    background-color: #0b1d56;
+    color: white;
+}
+
+#contact-cover-and-form-container {
+    display: flex;
+    gap: 46px;
+}
+
+#contact-cover-and-form-container {
+    display: flex;
+    gap: 46px;
+}
+
+#contact-cover {
+    display: none;
+}
+
+#contact-cover img {
+    position: absolute;
+    top: -76px;
+    left: -88px;
+}
+
+#contact-cover h1 {
+    z-index: 10;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 96px;
+    font-weight: bold;
+}
+
+#contact form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+#contact label {
+    font-size: 14px;
+    font-family: 'Courier Prime', sans-serif;
+}
+
+#contact .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#contact form input,
+#contact form textarea {
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 2px solid #62f6ff;
+    font-family: 'Courier Prime', sans-serif;
+    font-size: 14px;
+    padding: 4px 8px;
+    color: white;
+}
+
+#contact form textarea {
+    height: 128px;
+}
+
+#contact button {
+    padding: 8px 12px;
+    background-color: #62f6ff;
+    border-style: none;
+    border-radius: 4px;
+    font-family: 'Courier Prime', sans-serif;
+    font-size: 14px;
+    color: #0b1d56;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+#contact button:hover {
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+    #contact form {
+        gap: 32px;
+    }
+
+    #contact label {
+        font-size: 20px;
+    }
+
+    #contact form input,
+    #contact form textarea {
+        font-size: 20px;
+        padding: 8px 12px;
+    }
+
+    #contact form textarea {
+        height: 192px;
+    }
+
+    #contact button{
+        padding: 16px 24px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    #contact-cover{
+        flex: 1;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        margin-left: 80px;
+        margin-bottom: 50px;
+    }
+}
