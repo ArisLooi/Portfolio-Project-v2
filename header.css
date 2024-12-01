@@ -39,8 +39,8 @@ nav {
     padding: @32px;
 }
 
-nav a{
-    font-family: 'Courier Prime',sans-serif;
+nav a {
+    font-family: 'Courier Prime', sans-serif;
     font-weight: bold;
     font-size: 20px;
     color: #746beb;
@@ -48,24 +48,24 @@ nav a{
 }
 
 @media only screen and (min-width: 768px) {
-    header{
+    header {
         font-display: row;
         align-items: center;
     }
 
-    #title-button-container{
+    #title-button-container {
         flex: 0;
-    }   
+    }
 
-    #title-button-container h3{
+    #title-button-container h3 {
         word-spacing: nowrap;
     }
 
-    header button{
+    header button {
         display: none;
     }
 
-    nav{
+    nav {
         flex: 1;
         display: flex;
         gap: 32px;
