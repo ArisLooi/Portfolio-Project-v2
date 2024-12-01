@@ -1,0 +1,50 @@
+#projects .project-img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+#projects h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0b1d56;
+    margin-top: 12px;
+}
+
+#projects p {
+    font-family: 'Courier Prime', sans-serif;
+    font-size: 14px;
+    color: #0b1d56;
+    margin-top: 12px;
+}
+
+#projects a {
+    font-family: 'Courier Prime', sans-serif;
+    font-size: 14px;
+    color: #6f64ff;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media only screen and (min-width:768px) {
+    #projects .project-img {
+        width: 75%;
+    }
+
+    #projects h2 {
+        font-size: 24px;
+    }
+
+    #projects p,
+    #projects a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    #projects .project-img {
+        width: 40%;
+    }
+}
